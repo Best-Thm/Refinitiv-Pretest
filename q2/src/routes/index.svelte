@@ -1,6 +1,7 @@
 <script lang='ts'>
 	import axios from 'axios';
 	import type {Data} from 'src/model/category'
+	import Table from '$lib/data_table.svelte'
 
 	const baseUrl = 'https://api.publicapis.org/categories';
     let response;
@@ -27,5 +28,6 @@
 		   placeholder="Number input" 
 		   bind:value={value}
 		   on:input={() => searchThis(value)}>
-	{result}
+	<Table data={result}/> 
+	<!-- {result} -->
 </div>
