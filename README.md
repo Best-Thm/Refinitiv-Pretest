@@ -13,7 +13,6 @@ framework: SvelteKit
 
 refer: https://kit.svelte.dev/
 note: partial search / show as table
-# Q3
+### Q3
 
     node try.mjs ['fund name'] -> node q3.mjs BM70SSF
-    
