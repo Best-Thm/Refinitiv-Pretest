@@ -2,7 +2,7 @@
 
 ### install node.js
 - refer: https://nodejs.org/en/
-### installed dependencies with
+### install dependencies with
 - run this command
 ```
 npm install
